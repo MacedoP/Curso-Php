@@ -8,6 +8,11 @@
 <body>
     <main>
         <?php
+            $nome = "Macedo";
+            $idade = 23;
+
+            echo"O seu nome é: $nome e tens $idade de idade!";
+            print"<br>";
             echo"Hello Word!" 
         ?>
     </main>
