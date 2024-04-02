@@ -13,7 +13,8 @@
 
             echo"O seu nome é: $nome e tens $idade de idade!";
             print"<br>";
-            echo"Hello Word!" 
+            echo"Hello Word!" ;
+            echo"Bom dia";
         ?>
     </main>
     
