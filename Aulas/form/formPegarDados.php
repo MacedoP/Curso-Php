@@ -10,6 +10,14 @@
     <main>
         <?php 
             include"formConexao.php"; //chama o formulário de
+            $nome = $_POST["nome"];
+            $idade = $_POST["idade"];
+            $email = $_POST["email"];
+            $sehna = $_POST["senha"];
+
+            $insert = "INSERT INTO candidatos VALUES(default, '$nome', $idade,'$email','$sehna')";
+            mysqli_query($conexao, $insert);
+            
 
         
         ?>
